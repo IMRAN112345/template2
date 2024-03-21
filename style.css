@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    overflow-X: hidden;
+}
+header{
+    height: 100vh;
+    /* max-height: 180dvh; */
+    width: 100vw;
+    display: flex;
+
+   
+}
+
+.part1{
+    width: 48%;
+    height: 100%;
+    /* max-height: 110%; */
+
+    background-color: #fb6400ad;
+    mix-blend-mode:normal;
+}
+
+.part2{
+    width: 52%;
+    height: 100%;
+    /* max-height:100%; */
+
+
+    
+}
+.part2 img{
+    position: absolute;
+    top: 0px;
+    left: 21vw;
+    z-index:-1;
+    width:79%;
+    height: 100vh;
+   
+}
+.subpart1{
+
+    /* background-color: rgba(211, 204, 2, 0.7); */
+    background-color: #ffee03d1;
+    height: 45%;
+    width: 100%;
+    mix-blend-mode: darken;
+}
+.subpart2{
+    /* background-color: white; */
+    height: 55vh ;
+}
+.box{
+    /* background-color: rgb(125 212 229); */
+    background-color: #76CEDE;
+    width: 1.6vw;
+    height:12vh ;
+    margin-left: 9.2vw;
+    margin-top: 4vh;
+    margin-bottom: 3.5vh;
+}
+h1{
+    margin-left: 8.8vw;
+    margin-top: 1vh;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight:800;
+    font-size: 3.3em;
+}
+#h1{
+    font-size: 2.4em;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 900;
+  
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    width: 10.5vw;
+    height: 11vh;
+    border:0.4em solid white;
+    margin-left: 8.8vw ;
+}
+h4{
+    color: white;
+    padding-right: 0.5em;
+    padding-bottom: 0.3em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1em ;
+}
+.part3{
+    height: 55vh;   
+    width: 100%;
+    background-color:  #76CEDE
+}
+.content1{
+    height: 50%;
+    width: 100%;
+    display: flex;   
+    align-items: center;
+}
+.box3{
+        /* margin-top: 5vh; */
+     
+        margin-left: 8.8vw;
+        width: 55%;
+        height: 50%;
+        background-color:hsl(32, 11%, 18%,1);
+        box-sizing: border-box;
+        display: flex;
+        padding-left: 3vw;
+        align-items: center;
+        color:white;
+}
+.content2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.subcont1{
+    width: 50%;
+    height: 100%;
+}
+.box4{
+    margin-left: 8.8vw;
+    width: 70%;
+    height: 50%;
+    background-color:hsl(32, 11%, 18%,1);
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 3vw;
+    align-items: center;
+    color:white;
+}
+.h1{
+    font-size: 3em;
+    font-weight: 900;
+    padding-left:5.5vw;
+    margin: 0;
+}
+.subcont2{
+    width: 50%;
+    height: 100%;
+}
+.subcont2 p{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.part4{
+    height: 78vh;
+    width: 100%;
+    background-color: rgba(226, 223, 223, 0.8);
+}
+.part4_1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.part4_1 h1{
+    color:orange;
+    font-weight: 900;
+}
+.part4_1 p{
+
+   color: hsl(32, 11%, 18%,1);
+    font-size: 1.5em;
+    padding-top: 3.5vh;
+    padding-left:9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part4_2{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.part4_2_1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.part4_2_1 h1{
+    color: #76CEDE; 
+    font-weight: 900;
+    max-width: 0;;
+}
+.part4_2_1 p{
+    color: hsl(32, 11%, 18%,1);
+    font-size: 1.5em;
+    padding-top: 3.5vh;
+    padding-left:9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part4_2_2{
+    height: 100%;
+    width: 30%;
+}
+.part4_2_2_1{
+    height: 80%;
+    margin-top: 14.3%;
+     background-color: #ffee03d1;
+    mix-blend-mode: darken;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.part4_2_2_1  h6{
+    color: hsl(32, 11%, 18%,1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    padding-left: 8.5vw;
+    margin-top: 0.2em;
+}
+#h6{
+    padding-left: 6.5vw;
+}
+#h6_2{
+    padding-left: 11.5vw;
+}
